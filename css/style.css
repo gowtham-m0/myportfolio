@@ -1,7 +1,6 @@
-
 body {
     margin: 0;
-    background-color:#E4F1FF;
+    background-color: #E4F1FF;
 }
 
 .header-container {
@@ -9,7 +8,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #AED2FF; 
+    background-color: #AED2FF;
     z-index: 100;
 }
 
@@ -25,7 +24,7 @@ body {
     display: inline-block;
     position: relative;
     top: 25px;
-    left: 1600px;
+    left: 1400px;
     padding-left: 30px;
     color: black;
 }
@@ -38,12 +37,14 @@ body {
 .redirect:hover {
     color: blue;
 }
-#line1{
-    position:relative;
+
+#line1 {
+    position: relative;
     top: 10px;
-    color:black;
+    color: black;
 }
-#line1 ,
+
+#line1,
 #line2 {
     background-color: rgba(156, 156, 156, 0.5);
     opacity: 0.2;
@@ -56,9 +57,9 @@ body {
 
 .main {
     height: 875px;
-    padding-top:200px;
-    padding-bottom:10px;
-    height:1050px
+    padding-top: 200px;
+    padding-bottom: 10px;
+    height: 1050px
 }
 
 #profile {
@@ -143,7 +144,7 @@ body {
 .skills-section,
 .contact-section {
     margin: 20px;
-    padding: 20px;
+    padding: 30px;
     background-color: #f5f5f5;
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -152,7 +153,7 @@ body {
 .about-section h2,
 .skills-section h2,
 .contact-section h2 {
-    height:750px;
+    height: 750px;
     font-size: 24px;
     margin-bottom: 10px;
 }
@@ -176,33 +177,51 @@ body {
 .header:not(.sticky) {
     position: static;
 }
-.contacts{
-    font-size:2em;
-    position:relative;
-    bottom:690px;
-    left:40px;
+
+.contacts {
+    font-size: 2em;
+    position: relative;
+    bottom: 690px;
+    left: 90px;
 
 }
-#contact-heading{
-    position:relative;
-    font-size:3em;
-    bottom:10px;
-    left:20px;
+
+#contact-heading {
+    color: blue;
+    font-size: 2em;
+    position: relative;
+    font-size: 3em;
+    top: 10px;
+    left: 60px;
 }
-#instagram{
-    position:relative;
-    top:60px;
-    right:135px;
+
+#instagram {
+    position: relative;
+    top: 60px;
+    right: 135px;
 }
-#github{
-    position:relative;
-    top:130px;
-    right:285px;
+
+#github {
+    position: relative;
+    top: 130px;
+    right: 285px;
 }
-#line3{
-    position:relative;
-    top:80px;
+
+#line3 {
+    position: relative;
+    right: 88px;
+    top: 80px;
 }
+
+.logo {
+    position: absolute;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    top: 20px;
+    left: 20px;
+}
+
 .contact-form {
     max-width: 500px;
     margin: 0 auto;
@@ -217,9 +236,11 @@ body {
     margin-bottom: 10px;
     font-weight: bold;
 }
-#contact{
-    height:1000px;
+
+#contact {
+    height: 1020px;
 }
+
 .contact-form input[type="text"],
 .contact-form input[type="email"],
 .contact-form textarea {
@@ -246,7 +267,7 @@ body {
 }
 
 .contact-form input[type="submit"]:hover {
-    background-color: #0056b3; 
+    background-color: #0056b3;
 }
 
 .contact-form h2 {
@@ -256,101 +277,153 @@ body {
 
 .contact-form-container {
     position: relative;
-    right:750px;
-    top:100px; 
+    right: 650px;
+    top: 100px;
 }
-#contact-heading{
-    color:blue;
-}
-#skill-heading,
-#about-heading{
+
+#contact-heading {
     color: blue;
-    font-size:2em;
-    position:relative;
-    font-size:3em;
-    bottom:10px;
-    left:20px;
+}
+
+#skill-heading,
+#about-heading {
+    color: blue;
+    font-size: 2em;
+    position: relative;
+    font-size: 3em;
+    top: 10px;
+    left: 60px;
 }
 
 #linkedin,
-#instagram{
-    color:black;
-    text-decoration:none;
+#instagram {
+    color: black;
+    text-decoration: none;
 }
 
 #linkedin:hover,
-#instagram:hover{
-    color:blue;
+#instagram:hover {
+    color: blue;
 }
 
 
 
-* {box-sizing:border-box}
+* {
+    box-sizing: border-box
+}
 
 .container {
-  width: 100%; 
-  background-color: #ddd; 
+    width: 100%;
+    background-color: #ddd;
 }
-#skills{
-    height:980px;
+
+#skills {
+    height: 980px;
 }
+
 .skills {
-  text-align: right; 
-  padding-top: 5px; 
-  padding-bottom: 5px; 
-  color: white;
+    text-align: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
 }
 
-.html {width: 40%; background-color: #808080;} 
-.cp{width: 60%; background-color: #808080;} 
-.java {width: 60%; background-color: #808080;} 
-.python {width: 70%; background-color: #808080;} 
-.ceh {width: 50%; background-color: #808080;} 
-.ds {width: 90%; background-color: #808080;} 
-.bash {width: 40%; background-color: #808080;} 
-.iot {width: 80%; background-color: #808080;} 
-.os {width: 70%; background-color: #808080;} 
-.dbms {width: 100%; background-color: #808080;} 
-.skill-container{
-    left:50px;
-    width:90%;
-    position:relative;
-    bottom:680px
+.html {
+    width: 40%;
+    background-color: #808080;
 }
 
-#about{
-    height:1000px;
+.cp {
+    width: 60%;
+    background-color: #808080;
 }
 
-.code-container{
-    position:relative;
-    width:300px;
+.java {
+    width: 60%;
+    background-color: #808080;
+}
+
+.python {
+    width: 70%;
+    background-color: #808080;
+}
+
+.ceh {
+    width: 50%;
+    background-color: #808080;
+}
+
+.ds {
+    width: 90%;
+    background-color: #808080;
+}
+
+.bash {
+    width: 40%;
+    background-color: #808080;
+}
+
+.iot {
+    width: 80%;
+    background-color: #808080;
+}
+
+.os {
+    width: 70%;
+    background-color: #808080;
+}
+
+.dbms {
+    width: 100%;
+    background-color: #808080;
+}
+
+.skill-container {
+    left: 50px;
+    width: 90%;
+    position: relative;
+    bottom: 680px
+}
+
+#about {
+    height: 1000px;
+}
+
+.code-container {
+    position: relative;
+    width: 300px;
     display: inline-block;
-    bottom:600px;
-    float:right;
-    right:590px;
+    bottom: 580px;
+    float: right;
+    right: 550px;
 }
-.code{
-    width:700px;
-    height:500px;
-    border-radius:30%;
+
+.code {
+    width: 750px;
+    height: 550px;
+    border-radius: 30%;
     transform: perspective(1000px) rotateY(10deg);
-    transition: transform 0.3s ease-in-out; 
+    transition: transform 0.3s ease-in-out;
 }
+
 .code:hover {
     transform: perspective(1000px) rotateY(0deg);
 }
-.about-text{
-    
-    position:relative;
-    font-weight:bold;
-    text-decoration:bold;
-    text-align:left;
-    left:60px;
-    bottom:600px;
-    width:750px;
+
+.about-text {
+    position: relative;
+    font-weight: bold;
+    text-decoration: bold;
+    text-align: left;
+    left: 65px;
+    bottom: 600px;
+    width: 750px;
+    height: 570px;
 }
-.about-text-p{
-    font-size:40px;
-    position:relative;
+
+.about-text-p {
+    font-family: 'Gabarito';
+
+    font-size: 40px;
+    position: relative;
 }
